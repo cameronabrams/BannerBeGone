@@ -31,7 +31,7 @@ End Sub
 
 3. Now, you need to edit your windows registry.  
    1. Invoke `regedit` from the command line
-   2. Go to `HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Outlook\Security
+   2. Go to `HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Outlook\Security`
    3. Create a new DWORD; name it `EnableUnsafeClientMailRules` and give it the value 1.
 
 4. Finally, add the rule in Outlook.
