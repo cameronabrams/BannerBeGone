@@ -10,7 +10,7 @@ On or about March 11, 2019, Drexel IT began to tag all non-Drexel incoming email
 
 Apart from being ugly and annoying, it is downright insulting to those of us who understand security and are aware of phishing.  To combat this annoyance, I figured out a way to strip these banners from all incoming messages using the Rules feature of Outlook.  Unfortunately, this only works for the Outlook client on my Windows laptop, but it is a start.  Basically, it amounts to running a custom script on every email received to remove the banner text if it is encountered.
 
-1. In Outlook, Alt-F11 to open the VBA interface.  Then create in Project1->'Microsoft Outlook Objects'->ThisOutlookSession and paste in this code:
+1. In Outlook, Alt-F11 to open the VBA interface.  Then in Project1->'Microsoft Outlook Objects'->ThisOutlookSession paste this code:
 
 ```
 Option Explicit
